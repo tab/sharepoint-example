@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    curb (0.9.10)
+    sharepoint-ruby (0.1.1)
+      curb (~> 0.8, <= 0.9.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sharepoint-ruby (= 0.1.1)
+
+BUNDLED WITH
+   1.17.3

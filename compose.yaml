@@ -1,0 +1,11 @@
+services:
+  sharepoint-example:
+    build: .
+    tty: true
+    stdin_open: true
+    environment:
+      - SHARE_POINT_HOST=
+      - SHARE_POINT_USERNAME=
+      - SHARE_POINT_PASSWORD=
+    volumes:
+      - .:/app
